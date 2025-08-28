@@ -1,0 +1,36 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Bash / Shell
+# =========================
+*.swp          # temporary swap files from editors
+*.tmp          # temporary files
+*.log          # log files
+
+# =========================
+# PowerShell
+# =========================
+*.ps1xml       # generated XML type data
+*.psc1         # console files
+*.cdxml        # class definitions
+*.cache        # cache files
+
+# =========================
+# System files (Linux/Windows/macOS)
+# =========================
+.DS_Store      # macOS finder file
+Thumbs.db      # Windows thumbnail cache
+desktop.ini    # Windows config file
+
+# =========================
+# Other common
+# =========================
+.env           # environment variable files (secrets!)
+*.bak          # backup files
+
